@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HalloweenApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="HappyHalloween">Joyeux Halloween !</string>
+    <string name="halloween">Joyeux Halloween!</string>
+
+</resources>
