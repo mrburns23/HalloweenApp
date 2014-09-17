@@ -24,10 +24,7 @@ public class MyActivity extends Activity
         blinkText();
     }
 
-    protected void onPause()
-    {
-        ourSong.release();
-    }
+
 
 
     private void blinkText()
@@ -61,6 +58,12 @@ public class MyActivity extends Activity
             }}).start();
     }
 
+    protected void onPause()
+    {
+        super.onPause();
+        ourSong.release();
+        //finish();
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
